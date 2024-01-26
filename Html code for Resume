@@ -1,0 +1,162 @@
+<html>
+<head>
+  <title>Resume</title>
+  <style>
+    body {
+      font-family: 'Times New Roman', Times, serif;
+      margin: 20;
+      padding: 0;
+      background-color: #f2f2f2;
+    }
+
+    header {
+      background-color:lightblue;
+      color: darkblue;
+      text-align: center;
+      padding: 1em;
+    }
+
+    section {
+      display: flex;
+      justify-content: space-between;
+      padding: 2em;
+    }
+
+    .left-section, .right-section {
+      flex: 1;
+    }
+
+    .right-section {
+      background-color: #fff;
+      border-left: 7px solid #333;
+      padding-left:5em;
+    }
+
+    h2 {
+      color: #681d1d;
+    }
+
+    table {
+      width: 100%;
+    }
+
+    table, th, td {
+      border-collapse: collapse;
+    }
+
+    th, td {
+      padding: 10px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Muhammed Naffa Mp</h1>
+    <p>Ai&Ml Engineer</p>
+  </header>
+
+  <section>
+    <div class="left-section">
+      <h2>Contact</h2>
+      <p>Email: muhammednaffa07@gmail.com</p>
+      <p>Phone: +917356269147</p>
+      <p>LinkedIn:http://surl.li/pueil </p>
+      <p>Github: https://github.com/naffa07</p>
+
+      <h2>Skills</h2>
+      <ul>
+        <li>Data Analysis, Machine Learning</li>
+        <li>Communication, Problem Solving</li>
+      </ul>
+
+      <h2>Programming Languages</h2>
+      <ul>
+        <li>Python</li>
+        <li>C</li>
+        <li>SQL</li>
+        <li>Java</li>
+      </ul>
+      <h2>Languages</h2>
+      <ul>
+        <li>English</li>
+        <li>Hindi</li>
+        <li>Malayalam</li>
+      </ul>
+      <h2>Hobby</h2>
+      <ul>
+        <li>Playing Football</li>
+        <li>Hiking</li>
+        <li>Cooking</li>
+        <li>Reading</li>
+      </ul>
+    </div>
+
+    <div class="right-section">
+      <h2>About</h2>
+      <p>Detail-oriented professional with a focus on precision in AI and ML implementations, ensuring high-quality and impactful results</p>
+
+      <h2>Key Strengths</h2>
+      <ul>
+        <li>Attention to Detail</li>
+        <li>Adaptability</li>
+        <li>Analytical Thinking</li>
+        <li>Time Management</li>
+      </ul>
+      
+      <h2>Education</h2>
+      <table>
+        <tr>
+          <th>Degree</th>
+          <th>University Name</th>
+          <th>Year</th>
+        </tr>
+        <tr>
+          <td>Higher Secondary</td>
+          <td>Gbhss Madayi</td>
+          <td>2019-2021</td>
+        </tr>
+        <tr>
+          <td>Bachelor's in Artificial intelligence &Machine learning</td>
+          <td>Srinivas University</td>
+          <td>2021-2025</td>
+        </tr>
+      </table>
+
+      <h2>Internships</h2>
+      <p>Codesoft</p>
+      <ul>
+        <li>Tic-tac toe using Ai </li>
+        <li>Ai Recomendation System</li>
+      </ul>
+      <p>Nexel</p>
+      <ul>
+        <li>Travel Planner</li>
+        <li>Forecasting Stock Prices with Time Series Analysis</li>
+      </ul>
+
+      <h2>Certification</h2>
+      <table>
+        <tr>
+          <th>Certificate</th>
+          <th>Institution</th>
+          <th>Year</th>
+        </tr>
+        <tr>
+          <td>Python</td>
+          <td>Infosys</td>
+          <td>2022</td>
+        </tr>
+        <tr>
+          <td>Azure Ai</td>
+          <td>Microsoft Azure</td>
+          <td>2023</td>
+        </tr>
+      </table>
+    </div>
+  </section>
+
+</body>
+</html>
